@@ -1,11 +1,9 @@
-import React from "react";
+import React from 'react';
 
-const App = () => {
-  return (
-    <div>
-      Leandro
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    Leandro
+  </div>
+);
 
 export default App;
