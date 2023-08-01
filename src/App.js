@@ -5,7 +5,7 @@ import Homepage from './components/Homepage';
 const Header = () => (
   <Router>
     <Routes>
-      <Route path="/home" element={<Homepage />} />
+      <Route exact path="/home" element={<Homepage />} />
     </Routes>
   </Router>
 );
